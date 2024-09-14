@@ -6,7 +6,7 @@ const Dashboard = () => {
     const [logs, setLogs] = useState([]);
     
     useEffect(() => {
-        // Function to load logs from SIEM 
+        // Function to load logs from SIEM
         async function loadLogs() {
             const siemEndpoint = process.env.SIEM_API_URL;
             const apiKey = process.env.SIEM_API_KEY;
