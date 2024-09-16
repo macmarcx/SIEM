@@ -1,7 +1,7 @@
 #!/bin/bash
 # Setup script for SIEM Dashboard
 
-echo "Starting environment setup..."
+echo "Starting environment setup...."
 
 # Update and install Node.js
 echo "Checking Node.js..."
