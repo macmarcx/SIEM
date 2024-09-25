@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import fetchLogs from '../utils/fetchLogs';
 import formatLogs from '../utils/formatLogs';
 
+//Dashboard
 const Dashboard = () => {
     const [logs, setLogs] = useState([]);
     
